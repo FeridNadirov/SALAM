@@ -1,0 +1,38 @@
+body{
+	margin-top: 0;
+
+background-color:#333333;
+
+
+}
+
+.container{
+	margin: 0 auto;
+width: 98%;
+height: 80vh;
+background-image: linear-gradient( to right, rgb(252, 222, 190, .25) 75%,rgb(37, 137, 189,.25) 100%,transparent ), url("../img/bg.jpg");
+clip-path: polygon(0 0, 100% 0, 100% 82%, 50% 93%, 0 82%);
+background-size: cover ;
+background-position: center;
+background-repeat: no-repeat;
+display:block;
+
+}
+.text{
+	color: rgb(37, 137, 189);
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+}
+h1{
+background:linear-gradient(125deg,#FCDEBE 50%,#2589BD 50%);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+	
+	text-align: center;
+	font-size: 120px;
+}
+span{
+
+	color: white;
+}
